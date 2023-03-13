@@ -7,12 +7,11 @@ struct timeStru {
     int second;
 };
 
-timeStru swapTime (timeStru &t1,timeStru &t2) {
+void swapTime (timeStru &t1,timeStru &t2) {
     timeStru temp;
     temp = t1;
     t1 = t2;
     t2 = temp;
-    return t1,t2;
 }
 
 int main() {
